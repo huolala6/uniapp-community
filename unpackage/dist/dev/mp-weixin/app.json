@@ -4,18 +4,35 @@
     "pages/news/news",
     "pages/msg/msg",
     "pages/my/my",
-    "components/common/common-list"
+    "pages/search/search",
+    "pages/add-input/add-input",
+    "pages/topic-nav/topic-nav",
+    "pages/topic-detail/topic-detail",
+    "pages/user-list/user-list",
+    "pages/user-chat/user-chat",
+    "pages/detail/detail",
+    "pages/user-set/user-set",
+    "pages/user-password/user-password",
+    "pages/user-email/user-email",
+    "pages/user-userinfo/user-userinfo",
+    "pages/user-feedback/user-feedback",
+    "pages/about/about",
+    "pages/login/login",
+    "pages/user-space/user-space",
+    "pages/user-safe/user-safe",
+    "pages/user-phone/user-phone",
+    "pages/history/history"
   ],
   "subPackages": [],
   "window": {
     "navigationBarTextStyle": "black",
     "navigationBarTitleText": "社区交友",
-    "navigationBarBackgroundColor": "#F8F8F8",
-    "backgroundColor": "#F8F8F8"
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "backgroundColor": "#FFFFFF"
   },
   "tabBar": {
     "color": "#333333",
-    "selectedColor": "#fc5c82",
+    "selectedColor": "#FC5C82",
     "backgroundColor": "#FFFFFF",
     "borderStyle": "black",
     "list": [
@@ -45,6 +62,9 @@
       }
     ]
   },
-  "usingComponents": {},
-  "sitemapLocation": "sitemap66.json"
+  "usingComponents": {
+    "divider": "/components/common/divider",
+    "no-thing": "/components/common/no-thing"
+  },
+  "sitemapLocation": "sitemap.json"
 }

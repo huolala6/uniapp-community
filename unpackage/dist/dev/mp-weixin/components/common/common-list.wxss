@@ -1,7 +1,5 @@
 
-.list-image{
-	width: 100%;
-	height: 350rpx;
+.support-active{
+	color: #FF4A6A;
 }
-
 
